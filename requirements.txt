@@ -1,4 +1,4 @@
 fastapi
-uvicorn[standard]
-openai
-python-dotenv
+uvicorn
+openai>=1.0.0
+python-dotenv     # 환경변수 파일 쓸 때
