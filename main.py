@@ -50,7 +50,10 @@ Make sure to include all levels in your response and provide enough detail so th
         # GPT에 요청
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
-            messages=messages,
+           messages=[
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_message}
+    ],
             max_tokens=2000,
             temperature=0.7
         )
