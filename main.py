@@ -37,7 +37,8 @@ At the Application level, create questions that help students apply what they ha
 
 At the Analysis level, suggest questions that guide students to examine the benefits and problems that may arise from economic exchanges between Korea and other countries.
 
-At the Evaluation level, suggest questions that involve setting criteria for economic exchanges between Korea and other countries or making decisions through comparisons. Please respond in Korean" )
+At the Evaluation level, suggest questions that involve setting criteria for economic exchanges between Korea and other countries or making decisions through comparisons. Please respond in Korean.
+Make sure to include all levels in your response and provide enough detail so that none are left out." )
         }
 
         # GPT에 보낼 메시지 구성
