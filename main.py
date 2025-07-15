@@ -50,7 +50,7 @@ At the Evaluation level, suggest questions that involve setting criteria for eco
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=messages,
-            max_tokens=1000,
+            max_tokens=2000,
             temperature=0.7
         )
 
