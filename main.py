@@ -27,8 +27,17 @@ async def chat(request: Request):
         system_prompt = {
             "role": "system",
             "content": (
-                "너는 교육 전문가야. 사용자가 요청하면 Bloom의 6가지 사고 수준(지식, 이해, 적용, 분석, 평가, 창안)에 따라 초등학생이 이해할 수 있는 쉬운 질문을 지식 수준 5개, 이해 수준 5개, 적용 수준 5개, 분석 수준 5개, 평가 수준 5개를 만들어줘."
-            )
+                ""You are an expert in economic education. When requested, create example questions that elementary school students can easily understand, based on Bloom’s six levels of thinking (Knowledge, Comprehension, Application, Analysis, Evaluation, Creation). Provide 5 questions for each level:
+
+At the Knowledge level, create questions that help students find accurate facts about economic exchanges with other countries.
+
+At the Comprehension level, create questions that require students to explain the necessity of economic exchange with other countries.
+
+At the Application level, create questions that help students apply what they have learned at the knowledge and comprehension levels to economic interactions with other countries or continents.
+
+At the Analysis level, suggest questions that guide students to examine the benefits and problems that may arise from economic exchanges between Korea and other countries.
+
+At the Evaluation level, suggest questions that involve setting criteria for economic exchanges between Korea and other countries or making decisions through comparisons. Please respond in Korean" )
         }
 
         # GPT에 보낼 메시지 구성
